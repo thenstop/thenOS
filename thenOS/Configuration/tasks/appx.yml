@@ -1,0 +1,24 @@
+title: AppX Changes
+description: Removes AppX Packages
+privilege: TrustedInstaller
+actions:
+  - !appx: {operation: remove, name: '*get*'}
+  - !appx: {operation: remove, name: '*xbox*'}
+  - !appx: {operation: remove, name: '*store*'}
+  - !appx: {operation: remove, name: '*xaml*'}
+  - !appx: {operation: remove, name: '*runtime*'}
+  - !appx: {operation: remove, name: '*calculator*'}
+  - !appx: {operation: remove, name: '*camera*'}
+  - !appx: {operation: remove, name: '*sound*'}
+  - !appx: {operation: remove, name: '*3D*'}
+  - !appx: {operation: remove, name: '*alarm*'}
+  - !appx: {operation: remove, name: '*calendar*'}
+  - !appx: {operation: remove, name: '*cortana*'}
+  - !appx: {operation: remove, name: '*zune*'}
+  - !appx: {operation: remove, name: '*mail*'}
+  - !appx: {operation: remove, name: '*map*'}
+  - !appx: {operation: remove, name: '*solitaire*'}
+  - !appx: {operation: remove, name: '*phone*'}
+  - !appx: {operation: clearCache, name: '*Client.CBS*'}
+  - !appx: {operation: clearCache, name: '*StartMenuExperienceHost*'}
+  - !appx: {operation: clearCache, name: '*Windows.Search*'}
